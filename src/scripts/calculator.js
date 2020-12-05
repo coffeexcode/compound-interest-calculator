@@ -371,7 +371,6 @@ function getAdditionsPercompoundInterval(additionPeriod, compoundInterval) {
           return 365;
         default: return -1;
       }
-
     }
     case "weekly": {
       switch (compoundInterval) {
@@ -440,6 +439,7 @@ function getAdditionsPercompoundInterval(additionPeriod, compoundInterval) {
         default: return -1;
       }
     }
+    default: return -1;
   }
 }
 

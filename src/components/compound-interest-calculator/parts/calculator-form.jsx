@@ -1,5 +1,5 @@
 import React from 'react';
-import { withStyles, Typography, Grid, TextField, FormControl, Select, MenuItem, Button, Slider, InputAdornment, Tooltip, IconButton, OutlinedInput, Zoom } from '@material-ui/core';
+import { withStyles, Typography, Grid, TextField, FormControl, Select, MenuItem, Button, Slider, InputAdornment, Tooltip, OutlinedInput, Zoom } from '@material-ui/core';
 import HelpIcon from '@material-ui/icons/Help';
 import { StringUtils } from '../../../scripts/utils';
 
@@ -139,7 +139,7 @@ class CalculatorForm extends React.Component {
                         <Grid item xs md={4}>
                             <FormControl fullWidth variant="outlined">
                                 <OutlinedInput
-                                    id="outlined-adornment-initial"
+                                    id="outlined-adornment-interest"
                                     value={this.state.interestRate}
                                     onChange={(e) => this.setState({ ...this.state, interestRate: e.target.value })}
                                     endAdornment={<InputAdornment position="end">%</InputAdornment>}
