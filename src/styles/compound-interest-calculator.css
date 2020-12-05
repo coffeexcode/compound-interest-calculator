@@ -1,0 +1,122 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.header h3 {
+    text-align: center;
+}
+.header h4 {
+    text-align: center;
+}
+
+.description {
+    font-weight: bold;
+}
+
+.form-section {
+    margin: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section-header {
+    margin-bottom: 0.5rem !important;
+}
+
+.fullwidth-control {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.slider {
+    margin: 0rem 2rem !important;
+}
+
+.results-component {
+    display: flex;
+    flex-direction: column;
+}
+
+.panel-options-container {
+    margin-bottom: 2rem;
+}
+.panel-options {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.table-options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.panel-option {
+    padding: 0rem 1rem;
+}
+
+.comparison-panel {
+    display: flex;
+    flex-direction: row;
+}
+
+.results-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.results-summary-grid-item {
+    padding: 3rem !important;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.summary-line {
+    text-align: center;
+}
+
+.graph {
+    margin: 2rem 0rem;
+}
+
+.results-summary-grid-item h5 {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.MuiTabs-root {
+    margin: 3rem 0rem;
+}
+
+.results-component {
+    padding: 0 0 3rem 0;
+}
+
+.investment-highlight {
+    font-size: 102.5%;
+    font-weight: bold;
+}
+
+.help-icon {
+    max-width: 18px;
+    max-height: 18px;
+    margin-left: 1rem;
+    margin-top: -20px !important;
+    color: #64b5f6;
+}
+
