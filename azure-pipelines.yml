@@ -3,9 +3,9 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
-trigger:
-- main
-
+pr:
+  - main
+    
 pool:
   name: Oracle Cloud
 
@@ -22,7 +22,3 @@ steps:
 - script:  |
     npm run build
   displayName: 'NPM Build'
-
-- script: |
-    npm run test
-  displayName: 'NPM Test'
